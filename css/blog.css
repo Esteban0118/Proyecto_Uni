@@ -1,0 +1,22 @@
+#portada h4 , h2{
+    text-align: center;
+    
+}
+#portada .contenedor{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap ;
+}
+#portada article {
+    margin: 15px;
+
+}
+
+#portada img{
+
+    width: 100vh;
+    max-width: 400px;
+    clip-path: circle();
+}
+
+

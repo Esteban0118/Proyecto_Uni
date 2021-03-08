@@ -1,0 +1,58 @@
+.grid{
+    display: grid;
+
+}
+.Formulario{
+        
+    background-image: url("../img/fondo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: transparent;
+    
+}
+
+
+
+form{
+    
+    width:450px;
+    margin: 0 auto;
+    background:rgba(0, 10, 104, 0.4);
+    padding:10px 20px;
+    box-sizing:  border-box;
+    margin-top: 100px;
+    border-radius: 7px;
+    box-shadow: 7px 10px 5px black;
+}
+span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+input,textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+textarea {
+    min-height: 100px;
+    max-height: 200 px;
+    max-width: 100%;
+}
+.Button{
+    background:#31384A;
+    color: #fff;
+    padding: 20px;
+}
+.Button:hover {
+    cursor: pointer;
+}
+@media (max-width:480px){
+    form{
+        width: 100%;
+    }
+}
