@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+footer{
+    
+  bottom: 20px;
+  width: 100%;
+  background:#333;
+  font-family: 'Montserrat', sans-serif;
+  color:white;
+}
+
+footer .main-content {
+    display: flex;
+}
+
+footer.left-box {
+  flex-basis: 50%;
+  padding: 10px 20px; 
+}
+
+footer h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content{
+    margin: 20px 0 0 0;
+    position:relative;
+}
+
+.box .content::before{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #eaee0e;
+  top: -10px;
+}
+.left .content p{
+    text-align: justify;
+  }
+footer .social{
+    margin: 10px 0 0 0;
+
+}
+footer .social a{
+    padding: 0 2px;
+}
+footer .social a span{ /*cuadro de los iconos sociales*/
+  height: 40px;
+  width: 40px;
+  background: #ffffff;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+footer .center .content .fas{/*Ubicacion radio de los fas*/
+    font-size: 1.4375rem;
+    background: #1a1a1a;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 20%;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+ footer .center .content .text{
+    font-size: medium;
+    font-weight: 400;
+    padding-left: 5px;
+  }
+  footer.center .content .phone{
+    margin: 15px 0;
+  }
+  footer.right form .msg{
+    margin-top: 50px;
+  }
+
+  
+ 
+
+

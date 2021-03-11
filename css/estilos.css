@@ -42,7 +42,16 @@ header .contenedor{
 }
 section{
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    
+}
+
+section h1{
+    font-size: 30px;
+    
+}
+section p{
+    font-size: 28px;
 }
 
 #Bienvenidos {
